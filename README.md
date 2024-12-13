@@ -9,7 +9,7 @@ A minimal plugin for EigenLayer CLI requires a shared library to be built that i
 ```go
 type Coordinator interface {
     Type() string
-	Register() error
+    Register() error
     OptIn() error
     OptOut() error
     Deregister() error
