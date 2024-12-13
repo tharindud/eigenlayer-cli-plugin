@@ -89,7 +89,7 @@ var PluginCoordinator Coordinator
 Build the project as a plugin (following example build `eigenlayer-cli-demo.so`).
 
 ```bash
-    $ go build -buildmode=plugin -o eigenlayer-cli-demo.so
+$ go build -buildmode=plugin -o eigenlayer-cli-demo.so
 ```
 
 ### Host the Plugin
