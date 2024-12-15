@@ -15,10 +15,6 @@ type Specification struct {
 	Foo             string `json:"foo"`
 }
 
-func (spec Specification) Type() string {
-	return spec.Coordinator
-}
-
 func (spec Specification) Validate() error {
 	if spec.Foo == "" {
 		return errors.New("specification: foo is required")

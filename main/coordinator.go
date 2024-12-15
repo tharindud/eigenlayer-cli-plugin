@@ -7,10 +7,6 @@ import (
 type Coordinator struct {
 }
 
-func (coordinator Coordinator) Type() string {
-	return "eigenlayer-cli-plugin"
-}
-
 func (coordinator Coordinator) Register() error {
 	fmt.Println("eigenlayer-cli-plugin:register")
 	fmt.Printf("specification:name=%s\n", PluginSpecification.Name)

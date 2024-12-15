@@ -8,16 +8,13 @@ A minimal plugin for EigenLayer CLI requires a shared library to be built that i
 
 ```go
 type Coordinator interface {
-    Type() string
-    Register() error
-    OptIn() error
-    OptOut() error
-    Deregister() error
-    Status() (string, error)
+	Register() error
+	OptIn() error
+	OptOut() error
+	Deregister() error
+	Status() (string, error)
 }
 ```
-
-In the above interface, the `Type()` function should return the type of the coordinator, which can be a non-empty string that identifies the coordinator implementation.
 
 The `Register()`, `OptIn()`, `OptOut()` and `Deregister()` functions are invoked when the plugin is to execute the logic for the corresponding AVS registration workflows.
 
@@ -50,10 +47,6 @@ import (
 )
 
 type Coordinator struct {
-}
-
-func (coordinator Coordinator) Type() string {
-    return "eigenlayer-cli-demo"
 }
 
 func (coordinator Coordinator) Register() error {
@@ -119,12 +112,11 @@ The plugin can access the specification used for launching the coordinator by in
 
 ```go
 type Specification interface {
-    Type() string
     Validate() error
 }
 ```
 
-The `Type()` function should return the type of the specification implementation. The `Validate()` function is called after loading the specification in order to check its validity.
+The `Validate()` function is called after loading the specification in order to check its validity.
 
 Note that this plugin specification can also include custom properties included in the corresponding `avs.json` file.
 
@@ -163,10 +155,6 @@ type Specification struct {
     Foo             string `json:"foo"`
 }
 
-func (spec Specification) Type() string {
-    return spec.Coordinator
-}
-
 func (spec Specification) Validate() error {
     if spec.Foo == "" {
         return errors.New("specification: foo is required")
@@ -184,7 +172,6 @@ The plugin can access the configuration parameters used when workflows are invok
 
 ```go
 type Configuration interface {
-    Get(key string) interface{}
     Set(key string, value interface{})
 }
 ```
@@ -196,10 +183,6 @@ package main
 
 type Configuration struct {
 	registry map[string]interface{}
-}
-
-func (config Configuration) Get(key string) interface{} {
-	return config.registry[key]
 }
 
 func (config Configuration) Set(key string, value interface{}) {
