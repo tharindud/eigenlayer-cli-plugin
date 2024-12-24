@@ -30,9 +30,9 @@ func (coordinator Coordinator) Deregister() error {
 	return nil
 }
 
-func (coordinator Coordinator) Status() (string, error) {
+func (coordinator Coordinator) Status() (int, error) {
 	fmt.Println("eigenlayer-cli-plugin:status")
-	return "", nil
+	return 0, nil
 }
 
 var PluginCoordinator Coordinator
