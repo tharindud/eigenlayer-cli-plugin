@@ -1,0 +1,10 @@
+{
+    "name": "sample/cli-plugin",
+    "description": "Sample specification for custom CLI plugin",
+    "network": "holesky",
+    "contract_address": "0x0000000000000000000000000000000000000000",
+    "coordinator": "plugin",
+    "remote_signing": false,
+    "library_url": "https://github.com/tharindud/eigenlayer-cli-plugin/releases/download/eigenlayer-cli-plugin-1.3/eigenlayer-cli-plugin-${ARCH}-${OS}.${EXT}",
+    "foo": "foo-value"
+}

@@ -1,0 +1,6 @@
+# The avs_id parameter used for identifying the AVS.
+# DO NOT MODIFY.
+avs_id: "holesky/ava-protocol"
+
+# Full path to the operator BLS key file.
+bls_key_file: 

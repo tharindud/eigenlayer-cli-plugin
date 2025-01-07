@@ -1,0 +1,10 @@
+# The avs_id parameter used for identifying the AVS.
+# DO NOT MODIFY.
+avs_id: "holesky/arpa"
+
+# Full path to the ARPA AVS key.
+# This is an ECDSA key and can only be used for a single registration.
+avs_key_file: 
+
+# Address of the asset account
+asset_account_address: 
