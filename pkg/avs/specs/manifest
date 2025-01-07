@@ -50,7 +50,6 @@ mainnet/lagrange-zkpn/stake_registry.json
 mainnet/lagrange-zkpn/avs_directory.json
 mainnet/lagrange-zkpn/config.yaml
 mainnet/lagrange-zkpn/service_manager.json
-manifest
 holesky/witness-chain/avs_directory.json
 holesky/witness-chain/config.yaml
 holesky/witness-chain/avs.json
