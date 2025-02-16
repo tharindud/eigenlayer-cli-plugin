@@ -4,7 +4,7 @@
     "network": "holesky",
     "contract_address": "0x0000000000000000000000000000000000000000",
     "coordinator": "plugin",
-    "remote_signing": false,
+    "remote_signing": true,
     "library_url": "https://github.com/tharindud/eigenlayer-cli-plugin/releases/download/eigenlayer-cli-plugin-1.3/eigenlayer-cli-plugin-${ARCH}-${OS}.${EXT}",
     "foo": "foo-value"
 }

@@ -4,7 +4,7 @@
     "network": "mainnet",
     "contract_address": "0x35f4f28a8d3ff20eed10e087e8f96ea2641e6aa2",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "service_manager.json",
     "functions": {
         "register": {
@@ -18,13 +18,13 @@
         "opt-in": {
             "name": "subscribe",
             "parameters": [
-                "config:chain_id"
+                "config:roll_up_chain_id"
             ]
         },
         "opt-out": {
             "name": "unsubscribe",
             "parameters": [
-                "config:chain_id"
+                "config:roll_up_chain_id"
             ]
         },
         "deregister": {

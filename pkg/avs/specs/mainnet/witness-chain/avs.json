@@ -4,7 +4,7 @@
     "network": "mainnet",
     "contract_address": "0xd25c2c5802198cb8541987b73a8db4c9bcae5cc7",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "witness_hub.json",
     "functions": {
         "register": {

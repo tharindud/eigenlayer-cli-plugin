@@ -4,7 +4,7 @@
     "network": "holesky",
     "contract_address": "0xbfc5d26c6eeb46475eb3960f5373edc5341ee535",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "service_manager.json",
     "functions": {
         "register": {

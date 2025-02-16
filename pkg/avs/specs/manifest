@@ -1,106 +1,116 @@
-sample/cli-plugin/avs.json
-sample/cli-plugin/config.yaml
-mainnet/eoracle/registry_coordinator.json
-mainnet/eoracle/config.yaml
-mainnet/eoracle/avs.json
-mainnet/eoracle/avs_directory.json
-mainnet/eoracle/service_manager.json
-mainnet/xterio-mach/config.yaml
-mainnet/xterio-mach/avs.json
-mainnet/automata-mp/avs.json
-mainnet/automata-mp/config.yaml
-mainnet/arpa/avs.json
-mainnet/arpa/config.yaml
-mainnet/arpa/avs_directory.json
-mainnet/arpa/node_registry.json
-mainnet/arpa/service_manager.json
-mainnet/lagrange-sc/avs.json
-mainnet/lagrange-sc/avs_directory.json
-mainnet/lagrange-sc/service_manager.json
-mainnet/lagrange-sc/committee.json
-mainnet/lagrange-sc/config.yaml
-mainnet/predicate/avs_directory.json
-mainnet/predicate/config.yaml
-mainnet/predicate/service_manager.json
-mainnet/predicate/avs.json
-mainnet/hyperlane/config.yaml
-mainnet/hyperlane/service_manager.json
-mainnet/hyperlane/stake_registry.json
-mainnet/hyperlane/avs.json
-mainnet/hyperlane/avs_directory.json
-mainnet/ava-protocol/config.yaml
-mainnet/ava-protocol/avs.json
-mainnet/brevis-cochain/config.yaml
-mainnet/brevis-cochain/avs.json
-mainnet/altlayer-mach/config.yaml
-mainnet/altlayer-mach/avs.json
-mainnet/eigenda/avs.json
-mainnet/eigenda/config.yaml
-mainnet/witness-chain/avs.json
-mainnet/witness-chain/config.yaml
-mainnet/witness-chain/witness_hub.json
-mainnet/witness-chain/avs_directory.json
-mainnet/opacity/service_manager.json
-mainnet/opacity/avs_directory.json
-mainnet/opacity/config.yaml
-mainnet/opacity/avs.json
-mainnet/opacity/registry_coordinator.json
-mainnet/lagrange-zkpn/avs.json
-mainnet/lagrange-zkpn/stake_registry.json
-mainnet/lagrange-zkpn/avs_directory.json
-mainnet/lagrange-zkpn/config.yaml
-mainnet/lagrange-zkpn/service_manager.json
-holesky/witness-chain/avs_directory.json
-holesky/witness-chain/config.yaml
-holesky/witness-chain/avs.json
-holesky/witness-chain/witness_hub.json
-holesky/ava-protocol/config.yaml
-holesky/ava-protocol/avs.json
-holesky/opacity/config.yaml
-holesky/opacity/avs_directory.json
-holesky/opacity/avs.json
-holesky/opacity/registry_coordinator.json
-holesky/opacity/service_manager.json
-holesky/lagrange-zkpn/stake_registry.json
-holesky/lagrange-zkpn/config.yaml
-holesky/lagrange-zkpn/avs_directory.json
-holesky/lagrange-zkpn/avs.json
-holesky/lagrange-zkpn/service_manager.json
-holesky/predicate/config.yaml
-holesky/predicate/service_manager.json
-holesky/predicate/avs.json
-holesky/predicate/avs_directory.json
-holesky/hyperlane/service_manager.json
-holesky/hyperlane/avs_directory.json
-holesky/hyperlane/avs.json
-holesky/hyperlane/stake_registry.json
-holesky/hyperlane/config.yaml
-holesky/lagrange-sc/service_manager.json
-holesky/lagrange-sc/avs.json
-holesky/lagrange-sc/config.yaml
-holesky/lagrange-sc/avs_directory.json
-holesky/lagrange-sc/committee.json
-holesky/brevis-cochain/avs.json
-holesky/brevis-cochain/config.yaml
-holesky/automata-mp/avs.json
-holesky/automata-mp/config.yaml
-holesky/eigenda/config.yaml
-holesky/eigenda/avs.json
-holesky/xterio-mach/config.yaml
-holesky/xterio-mach/avs.json
-holesky/eoracle/avs_directory.json
-holesky/eoracle/service_manager.json
-holesky/eoracle/config.yaml
-holesky/eoracle/registry_coordinator.json
-holesky/eoracle/avs.json
-holesky/arpa/config.yaml
-holesky/arpa/service_manager.json
-holesky/arpa/avs.json
-holesky/arpa/node_registry.json
-holesky/arpa/avs_directory.json
-holesky/altlayer-mach/config.yaml
-holesky/altlayer-mach/avs.json
-holesky/skate/service_manager.json
-holesky/skate/avs.json
-holesky/skate/avs_directory.json
-holesky/skate/config.yaml
+5130b872440f28ecbf09240b9f2655e0d693e5bf  holesky/altlayer-mach/avs.json
+4698d56421098573a8df0cacd9c79826ebcd8420  holesky/altlayer-mach/config.yaml
+50f549d088733e0945497320841151cb3aa8b4ad  holesky/arpa/avs_directory.json
+f97a11e678e5d7556b31f7964facb21b07600c5d  holesky/arpa/avs.json
+46086139a96ba95f0e04f640af670b472a0f5f55  holesky/arpa/config.yaml
+0fe1ef8a6de7ee2af0b5c5bef86ae44dc8efc948  holesky/arpa/node_registry.json
+fbee4d6d8de7ae6856e0fa9bd62ebf8fd4072596  holesky/arpa/service_manager.json
+f1c899830b61c1828d9954cf1c4e9978ce5874c0  holesky/automata-mp/avs.json
+79787a31709e985b6870b1b198fe1d9a425fc5c0  holesky/automata-mp/config.yaml
+63cf5df9882fa042410f18bcb784cd96827d01e6  holesky/ava-protocol/avs.json
+7e6c1c264e5b4c3543e509e099fea478eb7208f9  holesky/ava-protocol/config.yaml
+8d3a431bc4222856c3713536a54bf72ac1ba0e7c  holesky/brevis-cochain/avs.json
+d829e0a9a495875c8573ced0be4f204131de03f7  holesky/brevis-cochain/config.yaml
+778943dc5cf04e972c7c8aff36472308712e2916  holesky/eigenda/avs.json
+380635d344dd0f4b032284c93d6f23d0b2bcd282  holesky/eigenda/config.yaml
+50f549d088733e0945497320841151cb3aa8b4ad  holesky/eoracle/avs_directory.json
+67edec57e23b400f6bef5ea63fe06a92380ebc42  holesky/eoracle/avs.json
+6a497f5a8175d86303c55c5a78f862ec3ec775dc  holesky/eoracle/config.yaml
+718721b84b58c6a9d407e9bbdf802b076eb6898a  holesky/eoracle/registry_coordinator.json
+8ac94d19f6e8a9c1fb46e1f934d2bc7062a2d753  holesky/eoracle/service_manager.json
+50f549d088733e0945497320841151cb3aa8b4ad  holesky/hyperlane/avs_directory.json
+8087c0e89833c9d92f2a4e21a3734c785f26b072  holesky/hyperlane/avs.json
+23c5003f35d265551a7935ac7208682ebc2b2748  holesky/hyperlane/config.yaml
+2c2fc71b82d7e29f7742614e314bfefe743db8ba  holesky/hyperlane/service_manager.json
+dde5253f6b4e79a4d1a1213433b78bdbcc183e1e  holesky/hyperlane/stake_registry.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  holesky/lagrange-sc/avs_directory.json
+302f050e8da3cb202e894a44de5d146ab9e400ed  holesky/lagrange-sc/avs.json
+a1b79aa5afc690f0eeb267ff5d83d550f56363c5  holesky/lagrange-sc/committee.json
+29acc366fd3d1356ae3a29ccab6b6a20d5ef1068  holesky/lagrange-sc/config.yaml
+44bc6239bc8c3c383897d8217bce33eff2f4242d  holesky/lagrange-sc/service_manager.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  holesky/lagrange-zkpn/avs_directory.json
+33b05d6317b363e9bcbc327a2e34f91a80da7c05  holesky/lagrange-zkpn/avs.json
+322d0fb0992d8cf496cd27ce4e7a1baefb8455e8  holesky/lagrange-zkpn/config.yaml
+2c2fc71b82d7e29f7742614e314bfefe743db8ba  holesky/lagrange-zkpn/service_manager.json
+ca4f698b0f0d3db2345f7a3930703b40cebf1d00  holesky/lagrange-zkpn/stake_registry.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  holesky/opacity/avs_directory.json
+d5dbe4d3be7eedd636293e1b44fdd154e056df3d  holesky/opacity/avs.json
+a9e4d02f52b42632fb4de46b3b36f9bc0f184054  holesky/opacity/config.yaml
+3eb1d44fe1dc7091ebe0546a0188fc75cbfa0bb8  holesky/opacity/registry_coordinator.json
+538b3789fa8378e92e7f766839ff4f2f89b5d157  holesky/opacity/service_manager.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  holesky/predicate/avs_directory.json
+a1195d2c22b1d07e6ddbdb9f891899597a3f68e7  holesky/predicate/avs.json
+aac7c8f217abfac8f1d9544667733bc8b42060bd  holesky/predicate/config.yaml
+1c870f040ae3c7ea2a5ada3752b33bc75ddeda87  holesky/predicate/service_manager.json
+50f549d088733e0945497320841151cb3aa8b4ad  holesky/skate/avs_directory.json
+c2243edbe9b319774d23f8ca76f4508019da1750  holesky/skate/avs.json
+dd6f3a8e6fda242d7a9b0a50da5ce0106bbb325b  holesky/skate/config.yaml
+0c72b3d8ebc77a471bf24a9fd8db1f7d0dbd3d5a  holesky/skate/service_manager.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  holesky/witness-chain/avs_directory.json
+7c4b319785b45e4e1ca68ccda0ba4f917dbf0c66  holesky/witness-chain/avs.json
+c24395a97269cedfbd7119786acb8bb31e87f5fe  holesky/witness-chain/config.yaml
+875b87df8a1687ddbfa56202878191c20f4fca9e  holesky/witness-chain/witness_hub.json
+9cf9cac179925e6929287444b511935a2113a5c6  holesky/xterio-mach/avs.json
+d8752ecf28876588527abea67f7d8d612e54f172  holesky/xterio-mach/config.yaml
+a2306ba7dc8ae9e09f9c482ff02368f7d1a9437a  mainnet/altlayer-mach/avs.json
+985d5ef3803231e1b871e5056f4309f8c4baabf0  mainnet/altlayer-mach/config.yaml
+328b7d1826967ed4662e8b3e34901eaa80c726f5  mainnet/arpa/avs_directory.json
+490a608688690cf265d6715f6a66898150dac040  mainnet/arpa/avs.json
+ce1a77be1083e63c5f912795ec54fba5e1dfe343  mainnet/arpa/config.yaml
+0fe1ef8a6de7ee2af0b5c5bef86ae44dc8efc948  mainnet/arpa/node_registry.json
+fbee4d6d8de7ae6856e0fa9bd62ebf8fd4072596  mainnet/arpa/service_manager.json
+0df714717205daea9d610ab32f826d9a29d800fd  mainnet/automata-mp/avs.json
+1acbeddb1d7206f0fc0e2cfc3982bce8304b912a  mainnet/automata-mp/config.yaml
+501e994de67967f083309c77a1ee25e3188fbfbd  mainnet/ava-protocol/avs.json
+41c5f09229429fd4b07985b0b65c38cc74e45889  mainnet/ava-protocol/config.yaml
+3f6d9aa2d3dce9821508b380617dabd8b489315e  mainnet/brevis-cochain/avs.json
+73b609a3b6cf3054e3e46e7ffe91b4c0797d6738  mainnet/brevis-cochain/config.yaml
+7504954a667b49d1b61bbceb7c90aef6767df7d6  mainnet/cyber-mach/avs.json
+35f8c0f684752aa4636e25d8867622d1b23d54f7  mainnet/cyber-mach/config.yaml
+639a203d2aaafc29cf738f734752dff7025cb833  mainnet/dodochain-mach/avs.json
+ea4067c44dc04fc5f6203b9cfc036b96aa8b600a  mainnet/dodochain-mach/config.yaml
+c1235d495edf9490806fbcf1dc1bd15946b0da6d  mainnet/eigenda/avs.json
+d8d91a87791161f6a0d44b55995e0ed8fc9d60e5  mainnet/eigenda/config.yaml
+50f549d088733e0945497320841151cb3aa8b4ad  mainnet/eoracle/avs_directory.json
+c0b99a8e13fa17694cd94b25546e4ff76dddc84e  mainnet/eoracle/avs.json
+1389fe09079ab85c550dfa0471837387e616972c  mainnet/eoracle/config.yaml
+718721b84b58c6a9d407e9bbdf802b076eb6898a  mainnet/eoracle/registry_coordinator.json
+8ac94d19f6e8a9c1fb46e1f934d2bc7062a2d753  mainnet/eoracle/service_manager.json
+1626f867779c8063c1483e1e9005fc9728a05a9b  mainnet/gm-network-mach/avs.json
+92f86557f9c8024f62916a10ae59097ec76e6217  mainnet/gm-network-mach/config.yaml
+328b7d1826967ed4662e8b3e34901eaa80c726f5  mainnet/hyperlane/avs_directory.json
+79b840d1242b73dd3824386b40c26d525889b498  mainnet/hyperlane/avs.json
+db648f04fb1f63a6790aa27a558aa1da72900d23  mainnet/hyperlane/config.yaml
+a58ba82d82f214a6c93aea1e62e332a1816597e7  mainnet/hyperlane/service_manager.json
+dde5253f6b4e79a4d1a1213433b78bdbcc183e1e  mainnet/hyperlane/stake_registry.json
+328b7d1826967ed4662e8b3e34901eaa80c726f5  mainnet/lagrange-sc/avs_directory.json
+10678266a90a9e7054359d8603dbb883ecd9797b  mainnet/lagrange-sc/avs.json
+73e7eda7419febac413fb578d990e812fce7b7f0  mainnet/lagrange-sc/committee.json
+ec62aa302f67ae3f814556fcab58300438196f89  mainnet/lagrange-sc/config.yaml
+11a69aadb711470ec3dc083bc236a2793f56fde4  mainnet/lagrange-sc/service_manager.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  mainnet/lagrange-zkpn/avs_directory.json
+dca654bcbcdc54787611afbe29621bc874ae3b03  mainnet/lagrange-zkpn/avs.json
+aaf78ad5cab5754250aed86b082073388db7a8a0  mainnet/lagrange-zkpn/config.yaml
+2c2fc71b82d7e29f7742614e314bfefe743db8ba  mainnet/lagrange-zkpn/service_manager.json
+ca4f698b0f0d3db2345f7a3930703b40cebf1d00  mainnet/lagrange-zkpn/stake_registry.json
+328b7d1826967ed4662e8b3e34901eaa80c726f5  mainnet/omni-network/avs_directory.json
+0f059b6dd8d6d6c50cd05c752db19e834e33ea71  mainnet/omni-network/avs.json
+11f30d12b73cfe6e529239deb9983716944c7dee  mainnet/omni-network/config.yaml
+30cb2b8b9215af8cb2a45f1faf37d3158f6358f9  mainnet/omni-network/service_manager.json
+328b7d1826967ed4662e8b3e34901eaa80c726f5  mainnet/opacity/avs_directory.json
+40bf31e1132aa0a41705479dbc4a536a0e20936a  mainnet/opacity/avs.json
+20439b18f7057b480493e54047620886fd48b353  mainnet/opacity/config.yaml
+f0525bf2460ccb231cc186a097f1b890c56d24ed  mainnet/opacity/registry_coordinator.json
+538b3789fa8378e92e7f766839ff4f2f89b5d157  mainnet/opacity/service_manager.json
+328b7d1826967ed4662e8b3e34901eaa80c726f5  mainnet/predicate/avs_directory.json
+4e1decc65873af445048a0cbd395c454173dd079  mainnet/predicate/avs.json
+4df666f026fd1b292dcaade45a6f6f2ec003dc97  mainnet/predicate/config.yaml
+eefd60e2391740cfbe73f7bfaec7f54b7e5d0fd1  mainnet/predicate/service_manager.json
+d175e7f0dda69ccd83d2d2ff8faafa1c163ad689  mainnet/witness-chain/avs_directory.json
+3e4abadd30a58c2e220fad0c80d78cd4a82a99f5  mainnet/witness-chain/avs.json
+7a0276dfc3934917914691d31ebcfc0ba6c2704e  mainnet/witness-chain/config.yaml
+875b87df8a1687ddbfa56202878191c20f4fca9e  mainnet/witness-chain/witness_hub.json
+1e5c5bed0691d420bb30520e3232b29def345812  mainnet/xterio-mach/avs.json
+76a0a65d71c20ee7a7f9761881a1e0a917616b9f  mainnet/xterio-mach/config.yaml
+8ceebe7cb3081d727e05c210234c946b9e303a11  sample/cli-plugin/avs.json
+14d202d58ed4f40a1202755efdb11c756cf3b839  sample/cli-plugin/config.yaml

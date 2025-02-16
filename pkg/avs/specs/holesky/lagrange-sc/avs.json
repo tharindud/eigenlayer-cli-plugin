@@ -4,7 +4,7 @@
     "network": "holesky",
     "contract_address": "0x18A74E66cc90F0B1744Da27E72Df338cEa0A542b",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "service_manager.json",
     "functions": {
         "register": {
@@ -18,13 +18,13 @@
         "opt-in": {
             "name": "subscribe",
             "parameters": [
-                "config:chain_id"
+                "config:roll_up_chain_id"
             ]
         },
         "opt-out": {
             "name": "unsubscribe",
             "parameters": [
-                "config:chain_id"
+                "config:roll_up_chain_id"
             ]
         },
         "deregister": {

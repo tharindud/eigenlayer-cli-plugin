@@ -2,5 +2,11 @@
 # DO NOT MODIFY.
 avs_id: "holesky/ava-protocol"
 
+# List of quorum ids as a string of comma separated values
+quorum_id_list: 
+
+# Node address
+socket: 
+
 # Full path to the operator BLS key file.
 bls_key_file: 

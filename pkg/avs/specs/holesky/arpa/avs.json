@@ -4,23 +4,20 @@
     "network": "holesky",
     "contract_address": "0xd36b6e5eee8311d7bffb2f3bb33301a1ab7de101",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "service_manager.json",
     "functions": {
         "register": {
             "name": "nodeRegistryAddress.nodeRegister"
         },
         "opt-in": {
-            "message": "opt-in not required, use register instead"
+            "name": "nodeRegistryAddress.nodeActivate"
         },
         "opt-out": {
-            "message": "opt-out not required, use deregister instead"
+            "name": "nodeRegistryAddress.nodeQuit"
         },
         "deregister": {
-            "name": "deregisterOperator",
-            "parameters": [
-                "config:operator.address"
-            ]
+            "name": "nodeRegistryAddress.nodeLogOff"
         },
         "status": {
             "name": "avsDirectory.avsOperatorStatus"
@@ -56,11 +53,25 @@
                 {
                     "name": "nodeRegister",
                     "parameters": [
-                        "func:ecdsa_public_key(file=config:avs_key_file,password=passwd:avs_key_password,format=const:[]byte)",
+                        "func:bls_public_key(type=const:local_keystore,file=config:avs_key_file,password=passwd:avs_key_password,format=const:[]byte)",
                         "const:true",
                         "config:operator.address",
                         "func:ecdsa_sign(hash=call:avsDirectory.calculateOperatorAVSRegistrationDigestHash,salt=last:salt,expiry=last:expiry)"
                     ]
+                },
+                {
+                    "name": "nodeActivate",
+                    "parameters": [
+                        "func:ecdsa_sign(hash=call:avsDirectory.calculateOperatorAVSRegistrationDigestHash,salt=last:salt,expiry=last:expiry)"
+                    ]
+                },
+                {
+                    "name": "nodeLogOff",
+                    "parameters": []
+                },
+                {
+                    "name": "nodeQuit",
+                    "parameters": []
                 }
             ]
         }

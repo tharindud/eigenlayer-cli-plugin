@@ -4,7 +4,7 @@
     "network": "mainnet",
     "contract_address": "0x22cac0e6a1465f043428e8aef737b3cb09d0eeda",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "service_manager.json",
     "functions": {
         "register": {

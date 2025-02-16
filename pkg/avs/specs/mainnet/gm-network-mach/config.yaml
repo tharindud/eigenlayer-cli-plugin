@@ -1,6 +1,6 @@
 # The avs_id parameter used for identifying the AVS.
 # DO NOT MODIFY.
-avs_id: "mainnet/ava-protocol"
+avs_id: "mainnet/gm-network-mach"
 
 # List of quorum ids as a string of comma separated values
 quorum_id_list: 

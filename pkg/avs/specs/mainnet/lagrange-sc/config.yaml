@@ -8,7 +8,7 @@ avs_id: "mainnet/lagrange-sc"
 #   Optimism    10
 #   Base        8453
 #   Arbitrum    42161
-chain_id: 
+roll_up_chain_id: 
 
 # Full path to the operator BLS key file.
 bls_key_file: 

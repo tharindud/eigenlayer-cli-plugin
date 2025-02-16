@@ -4,7 +4,7 @@
     "network": "holesky",
     "contract_address": "0xa987ec494b13b21a8a124f8ac03c9f530648c87d",
     "coordinator": "contract",
-    "remote_signing": false,
+    "remote_signing": true,
     "abi": "witness_hub.json",
     "functions": {
         "register": {

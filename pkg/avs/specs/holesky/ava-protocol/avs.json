@@ -4,5 +4,5 @@
     "network": "holesky",
     "contract_address": "0xEA3E82F9Ae371A6a372A6DCffB1a9bD17e0608eF",
     "coordinator": "middleware",
-    "remote_signing": false
+    "remote_signing": true
 }
